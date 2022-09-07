@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "fac5a6a0-600d-42ad-a9fd-bca8e3e725ee",
+		"name": "fin-market",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7543918"
+	},
+	"item": [
+		{
+			"name": "get stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/api/v1/market/IBM",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"api",
+						"v1",
+						"market",
+						"IBM"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
