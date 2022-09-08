@@ -10,11 +10,11 @@ dotenv.config();
 const app = express();
 
 const port = process.env.PORT || 1337;
-const mongo_url = process.env.MONGODB_CONNECTION || "";
+const mongoUrl = process.env.MONGODB_CONNECTION || "";
 
 /** Connect to Mongo * */
 mongoose
-	.connect(mongo_url, { retryWrites: true, w: "majority" })
+	.connect(mongoUrl, { retryWrites: true, w: "majority" })
 	.then(() => {
 		logger.info("Mongo connected!");
 		StartServer();
