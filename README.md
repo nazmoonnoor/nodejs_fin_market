@@ -51,7 +51,7 @@ Run
 
 ## Run use cases with Postman collection
 
--   Postman collection has been shared in the root folder. Please download it and import to postman to test the endpoints.
+-   Postman collection has been shared in the root folder. Please download it and import to postman to test the endpoint.
 
 ## API Reference
 
